@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: rice-classifier
+    env: python
+    buildCommand: ""
+    startCommand: python app.py
+    plan: free

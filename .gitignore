@@ -1,0 +1,8 @@
+# Ignore venv and training data
+rice/
+dataset/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+uploaded_image.jpg
