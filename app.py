@@ -7,6 +7,7 @@ import numpy as np
 app = Flask(__name__)
 model = load_model("model/rice_model.keras")
 
+
 # Load class labels
 with open("model/rice_labels.txt") as f:
     labels = [line.strip() for line in f.readlines()]
