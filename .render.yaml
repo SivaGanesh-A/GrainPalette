@@ -1,6 +1,8 @@
-type: web
-name: GrainPalette
-env: python
-buildCommand: pip install -r requirements.txt
-startCommand: python app.py
-pythonVersion: 3.10.13
+services:
+  - type: web
+    name: GrainPalette
+    env: python
+    region: oregon
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    pythonVersion: 3.10
